@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rental PS</title>
+  <link rel="stylesheet" href="rentalps1.css">
+</head>
+<body>
+<header>
+  <div class="promo">🎮 RENTAL PS — PESAN MUDAH, LANGSUNG KE WHATSAPP! 🎮</div>
+  <h1>🎮 RENTAL PS </h1>
+  <p>Pilih  PS Buat Rental Sesuka.</p>
+
+  <a href="https://andriyangunawan95.github.io/tokokita/makanan.html#home" class="mini-link" target="_blank">
+  Pesan Makanan
+
+  <a href="https://andriyangunawan95.github.io/tokokita/bioskopmini.html#home" class="size-link" target="_blank">
+  Bioskop Mini
+</a>
+</header>
+
+
+<main>
+  <section>
+    <h2>🛒 2 Produk</h2>
+    <div id="products" class="products"></div>
+  </section>
+
+  <section class="order">
+    <h2>📋 Data Pemesan</h2>
+    <p class="note">jika pengen memesan makanan kunjungi website khusus pesan makanan.</p>
+
+    <form id="orderForm">
+      <div class="grid">
+        <label>Nama Lengkap *<input id="nama" required></label>
+        <label>Umur *<input id="umur" type="number" min="1" required></label>
+        <label>No. WhatsApp *<input id="wa" type="tel" required placeholder="08xxxxxxxxxx"></label>
+        <label>Alamat Lengkap *<textarea id="alamat" required></textarea></label>
+      </div>
+
+      <h3>🎮 Data Rental PS</h3>
+      <div class="grid">
+        <label>Meja / PS Nomor
+          <select id="meja">
+            <option value="">-- rental PS --</option>
+            <option>PS 1 / Meja 1</option><option>PS 2 / Meja 2</option>
+            <option>PS 3 / Meja 3</option><option>PS 4 / Meja 4</option>
+            <option>PS 5 / Meja 5</option><option>PS 6 / Meja 6</option>
+          </select>
+        </label>
+        <label>Main PS Berapa Jam<input id="jam" type="number" min="1" placeholder="Contoh: 3"></label>
+        <label>Mulai Rental Jam Berapa<input id="mulai" type="time"></label>
+      </div>
+
+      <div class="cart">
+        <h3>🧾 Pesanan Kamu</h3>
+        <div id="cart">Belum ada produk.</div>
+        <strong id="total">Total: Rp0</strong>
+      </div>
+
+      <button class="submit" type="submit">📲 PESAN & ALIHKAN KE WHATSAPP</button>
+      <button class="reset" type="button" onclick="resetOrder()">🔄 Reset Pesanan</button>
+    </form>
+  </section>
+</main>
+
+ 
+
+<footer>© 2026 Rental PS</footer>
+<script src="rentalps1.js"></script>
+</body>
+</html>

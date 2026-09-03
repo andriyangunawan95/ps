@@ -1,0 +1,36 @@
+
+{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f3f4f6;color:#111827}.promo{background:#111827;color:#fff;padding:12px;text-align:center;font-weight:bold;animation:slide 8s linear infinite}header{text-align:center;padding:25px 15px;background:#fff}header h1{margin:8px 0;color:#7c3aed}main{max-width:1000px;margin:auto;padding:15px}section{background:#fff;border-radius:16px;padding:20px;margin-bottom:18px;box-shadow:0 5px 20px #0001}h2{margin-top:0}.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}.product{border:1px solid #ddd;border-radius:12px;padding:15px}.product h3{margin:0 0 7px}.price{font-weight:bold;color:#7c3aed}.controls{display:flex;align-items:center;gap:10px;margin-top:12px}.controls button{width:38px;height:34px;border:0;border-radius:8px;background:#7c3aed;color:white;font-size:20px;cursor:pointer}.qty{font-weight:bold;min-width:25px;text-align:center}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}label{font-weight:bold}input,textarea,select{width:100%;margin-top:6px;padding:11px;border:1px solid #ccc;border-radius:9px;font:inherit}textarea{min-height:90px;resize:vertical}.note{background:#fef3c7;padding:10px;border-radius:8px}.cart{margin-top:20px;padding:15px;background:#f9fafb;border-radius:10px}.cart-row{display:flex;justify-content:space-between;border-bottom:1px solid #ddd;padding:8px 0}.submit,.reset{width:100%;padding:14px;margin-top:15px;border:0;border-radius:10px;font-weight:bold;cursor:pointer}.submit{background:#16a34a;color:white}.reset{background:#e5e7eb}.total{margin-top:12px;display:block;font-size:18px}footer{text-align:center;padding:25px}@keyframes slide{0%{transform:translateX(0)}50%{transform:translateX(8px)}100%{transform:translateX(0)}}
+
+
+.mini-link {
+  display: inline-block;
+  padding: 7px 12px;
+  background: linear-gradient(135deg, #0044ff, #2d99ff);
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(255, 80, 50, 0.25);
+  transition: 0.25s ease;
+}
+
+
+.size-link {
+  display: inline-block;
+  padding: 7px 12px;
+  background: linear-gradient(135deg, #7bff00, #7aff2d);
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(255, 80, 50, 0.25);
+  transition: 0.25s ease;
+}
+
+
+.mini-link:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 16px rgba(255, 80, 50, 0.35);
+}
